@@ -12,37 +12,59 @@ body {
   align-items: center;
   height: 100vh;
   background-color: black;
+  margin: 0;
 }
 
 .content-wrapper {
   text-align: center;
+  padding: 20px; 
 }
 
 h1 {
   color: white;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 5em;
-  letter-spacing: -0.04em;
+  font-size: 3em;
+  letter-spacing: -0.02em;
 }
 
 p {
   color: rgb(98, 0, 255);
   font-family: "Comfortaa", cursive;
-  font-size: 1.5em;
-  margin: 15px 0;
+  font-size: 1.2em;
+  margin: 10px 0; 
 }
 
 .divider {
   color: white;
+  margin: 15px 0;
 }
 
 .icon {
   color: white;
-  padding: 15px;
+  padding: 10px;
   border-radius: 50%;
 }
 
 .icon:hover {
   cursor: pointer;
   background-color: rgb(22, 22, 22);
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em;
+    margin: 8px 0;
+  }
+
+  .divider {
+    margin: 10px 0;
+  }
+
+  .icon {
+    padding: 8px;
+  }
 }
